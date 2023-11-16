@@ -1,0 +1,35 @@
+.checkoutContainer {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+.checkoutLeft {
+  width: 60%;
+  height: 100%;
+  display: flex;
+}
+.checkoutForm {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.checkoutCart {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  max-height: 100%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.checkoutCart::-webkit-scrollbar {
+    display: none;
+  }
+  
+.checkoutRight {
+  width: 40%;
+  height: 100%;
+}

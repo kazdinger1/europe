@@ -1,0 +1,134 @@
+.shop {
+  background-image: url("../images/pattern4.png");
+  overflow-y: hidden;
+}
+.shopFront {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.767);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+.shopFrontDiv {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: rgb(221, 49, 49);
+}
+.shopFront img {
+  margin: auto;
+  width: 50%;
+}
+.shopFrontDiv div {
+  margin: auto;
+}
+.shopFrontDiv h1 {
+  font-size: 7rem;
+}
+.shopFrontDiv p {
+  font-family: "Roboto";
+  font-size: 1.4rem;
+}
+.shopFrontDiv button {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: #cc0000;
+  transition: 0.3s;
+  border: 1px solid #cc0000;
+  background-color: rgba(255, 0, 0, 0);
+}
+.shopFrontDiv button:hover {
+  cursor: pointer;
+  background-color: #cc0000;
+  color: white;
+  border: 1px solid white;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.storeContainer {
+  width: 95%;
+
+  margin: 20px auto;
+  display: flex;
+
+  background-color: rgba(255, 255, 255);
+}
+.storeCheckbox {
+  width: 10%;
+  height: auto;
+  background-color: rgb(221, 221, 221);
+
+}
+.storeCheckboxInner{
+  margin: 10px;
+}
+.store {
+  width: 85%;
+  height: 100%;
+}
+.store::-webkit-scrollbar {
+  display: none;
+}
+
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #043262;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 2px;
+  width: 8px;
+  height: 16px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

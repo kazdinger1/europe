@@ -1,0 +1,113 @@
+.culture {
+  background-image: url("../images/pattern4.png");
+}
+.cultureFront {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  background-color: rgba(245, 222, 179, 0.589);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+.cultureFrontDiv {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #043262;
+}
+.cultureFront img {
+  margin: auto;
+  width: 50%;
+}
+.cultureFrontDiv div {
+  margin: auto;
+}
+.cultureFrontDiv h1 {
+  font-size: 7rem;
+}
+.cultureFrontDiv p {
+  font-family: "Roboto";
+  font-size: 1.4rem;
+}
+.cultureFrontDiv button {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: #043262;
+  transition: 0.3s;
+  border: 1px solid #043262;
+  background-color: rgba(255, 0, 0, 0);
+}
+.cultureFrontDiv button:hover {
+  cursor: pointer;
+  background-color: #043262;
+  color: white;
+  border: 1px solid white;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.AboutAndArtContainer {
+  width: 100%;
+  display: flex;
+}
+.about {
+  margin: auto;
+  background-color: whitesmoke;
+  width: 60%;
+  height: 600px;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+}
+.about h1 {
+  font-size: 3rem;
+}
+.about p {
+  font-size: 1.3rem;
+  font-family: 'Roboto';
+}
+.cards {
+  /* width: 70%; */
+  /* margin: auto; */
+  margin: auto;
+}
+
+.text {
+  width: 100%;
+  margin: 20px auto ;
+  height: 120vh;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: flex;
+
+  background-color: rgba(0, 0, 0, 0.822);
+
+}
+.textImage {
+  width: 50%;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: 1px solid black;
+  background-image: url("../images/christianity.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textText {
+  width: 50%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.textText h1 {
+  font-size: 6rem;
+}
+.textText p {
+  font-size: 1.4rem;
+  font-family: 'Roboto';
+  padding: 20px;
+}

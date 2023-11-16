@@ -1,0 +1,21 @@
+.raceContainer {
+  background-image: url("../images/pattern4.png");
+}
+.race {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  overflow: hidden;
+}
+.race h1 {
+  font-size: 5rem;
+}
+.race h2 {
+  float: left;
+  width: 100%;
+  text-align: left;
+  margin: 20px;
+}

@@ -1,0 +1,121 @@
+.north {
+  background-image: url("../images/pattern4.png");
+}
+.northFront {
+  background-color: #043162a9;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+}
+.northFrontDiv {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.northFront img {
+  margin: auto;
+  width: 700px;
+  height: 700px;
+}
+.northFrontDiv div {
+  margin: auto;
+}
+.northFrontDiv h1 {
+  font-size: 7rem;
+  color: white;
+}
+.northFrontDiv p {
+  color: white;
+  font-size: 1.2rem;
+}
+.northFrontDiv button {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: #ffcc00;
+  transition: 0.3s;
+  border: 1px solid #ffcc00;
+  background-color: rgba(255, 0, 0, 0);
+}
+.northFrontDiv button:hover {
+  cursor: pointer;
+  background-color: #ffcc00;
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.cards {
+  width: 100%;
+}
+.text {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  background-color: #043262;
+}
+
+.textImage {
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/travel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textText {
+  width: 50%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.textText h1 {
+  font-size: 6rem;
+}
+.textText p {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+.mission {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  background-color: black;
+}
+.missionHeader {
+  height: 100%;
+  width: 30%;
+  color: white;
+  font-size: 2.5rem;
+  border-right: 1px solid white;
+  text-align: center;
+  position: relative;
+}
+.missionHeader p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.missionText {
+  height: 100%;
+  width: 70%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.design {
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}

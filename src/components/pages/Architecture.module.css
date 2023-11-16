@@ -1,0 +1,26 @@
+.architectureContainer {
+  background-image: url("../images/pattern4.png");
+}
+.architecture {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  /* height: 160vh; */
+  background-color: white;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  overflow: hidden;
+}
+/* .architecture img {
+  width: 70%;
+  margin: auto;
+} */
+.architecture h1 {
+  font-size: 5rem;
+}
+.architecture h2 {
+  float: left;
+  width: 100%;
+  text-align: left;
+  margin: 20px;
+}

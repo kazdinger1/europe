@@ -1,0 +1,100 @@
+.signupContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/art4.jpg");
+  background-size: cover;
+}
+.arrowPrevious {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  transform: translate(50%, 50%);
+  border-radius: 50%;
+  background-color: #d2042d;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  font-size: 3rem;
+}
+.contact {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactLeft {
+  width: 30%;
+  height: 80%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: 0 2px 8px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactForm {
+  text-align: center;
+  width: 70%;
+}
+.contactForm p {
+  font-family: "Roboto";
+}
+.contactForm a {
+  color: #d2042d;
+  cursor: pointer;
+  text-decoration: none;
+}
+.contactForm a:hover {
+  color: white;
+}
+.contactForm h1 {
+  font-size: 2rem;
+}
+.contactForm label {
+  float: left;
+  font-family: "Roboto";
+  width: 30%;
+  margin: 10px;
+  background-color: #d2042d;
+  color: white;
+  border-radius: 10px;
+}
+.contactForm input {
+  border: none;
+  width: 100%;
+  font-family: "Roboto";
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1rem;
+  border: 1px solid rgb(177, 177, 177);
+}
+.contactForm input:focus {
+  background-color: none;
+  outline: none;
+  border: 1px solid #d2042d;
+}
+/* .contactRight {
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  align-items: center;
+} */
+.contactLeft button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #d2042d;
+  color: white;
+  border: none;
+}
+.contactLeft button:hover {
+  cursor: pointer;
+  background-color: #be072b;
+}
+

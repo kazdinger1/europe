@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  height: 30vh;
+  background-color: gray;
+  background-image: url("../images/pattern777.png");
+  text-align: center;
+  display: flex;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+  align-items: center;
+}
+.footerLogo {
+  height: 90%;
+}
+.footerLogo img {
+  height: 100%;
+}
+.footerLinks {
+  display: flex;
+}
+.footerLinks ul {
+  color:white;
+
+  text-align: left;
+  list-style-type: none;
+  margin: 20px;
+}
+.footerLinks ul a {
+  color: gray;
+  font-family: 'Roboto';
+  text-decoration: none;
+}

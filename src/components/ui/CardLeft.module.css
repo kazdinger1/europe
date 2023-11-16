@@ -1,0 +1,37 @@
+.cardLeft {
+  width: 100%;
+  height: 70vh;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.822);
+  /* background-color: #ffffff83; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: flex;
+}
+.cardLeft h2 {
+  font-size: 3rem;
+  margin: 10px;
+  color: white;
+}
+.cardLeftImage {
+  width: 60%;
+  height: 100%;
+}
+.cardLeftText {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* color: black; */
+  color: white;
+}
+.cardLeftText p {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.cardLeftImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

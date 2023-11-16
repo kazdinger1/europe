@@ -1,0 +1,39 @@
+.cardRight {
+  width: 100%;
+  height: 70vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* background-color: rgba(0, 0, 0, 0.88); */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  background-color: #ffffffcb;
+  display: flex;
+
+}
+.cardRight h2 {
+  font-size: 3rem;
+  margin: 10px;
+  color: black;
+}
+.cardRightImage {
+  width: 60%;
+  height: 100%;
+}
+.cardRightText {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* color: white; */
+  color: black;
+}
+.cardRightText p {
+  font-size: 1.2rem;
+  padding: 20px;
+  font-family: "Roboto";
+}
+.cardRightImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,6 @@
+.widgetList{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-between;
+}

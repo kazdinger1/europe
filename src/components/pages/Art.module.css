@@ -1,0 +1,20 @@
+.artContainer {
+  background-image: url("../images/pattern4.png");
+}
+.art {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 8px black;
+  overflow: hidden;
+}
+.art h1 {
+  font-size: 5rem;
+}
+.art h2 {
+  float: left;
+  width: 100%;
+  text-align: left;
+  margin: 20px;
+}
